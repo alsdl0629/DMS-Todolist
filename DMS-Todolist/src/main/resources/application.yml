@@ -1,33 +1,14 @@
 spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dms_todolist?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
-    username: root
-    password: rkdalsl060629
-
   jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect  # JPA ?????? ??? (InnoDB)
-    open-in-view: false
-    show-sql: true
     hibernate:
-      format_sql: true
-      ddl-auto: update  # none, update, create, create-drop, validate
+      ddl-auto: update
+    database: mysql
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
 
-  mvc:
-    hiddenmethod:
-      filter:
-        enabled: true # GET, POST ? ? ??? PUT, DELETE ?? ???? ???? ?? ??
-
-  devtools:
-    livereload:
-      enabled: true
-
-  logging:
-    level:
-      org:
-        hibernate:
-          SQL: DEBUG
-          type:
-            descriptor:
-              sql:
-                BasicBinder: TRACE
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PWD}
+    driver-class-name: com.mysql.cj.jdbc.Driver

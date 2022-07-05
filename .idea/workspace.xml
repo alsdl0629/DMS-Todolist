@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaf40c8a-0132-4a38-9df0-b558b1d3aa30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DMS-Todolist.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/src/main/java/com/project/dmstodolist/DmsTodolistApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/src/main/java/com/project/dmstodolist/controller/signupcontroller/SignUpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/src/main/java/com/project/dmstodolist/domain/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/src/main/java/com/project/dmstodolist/domain/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/src/main/java/com/project/dmstodolist/dto/memberdto/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/src/main/java/com/project/dmstodolist/dto/memberdto/MessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/src/main/java/com/project/dmstodolist/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DMS-Todolist/src/test/java/com/project/dmstodolist/DmsTodolistApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="aaf40c8a-0132-4a38-9df0-b558b1d3aa30" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +38,7 @@
       <workItem from="1656655976198" duration="151000" />
       <workItem from="1656671547035" duration="11000" />
       <workItem from="1656671593442" duration="3000" />
+      <workItem from="1656685315562" duration="6000" />
     </task>
     <servers />
   </component>
